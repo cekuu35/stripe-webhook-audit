@@ -1,0 +1,15 @@
+{
+  "name": "stripe-webhook-audit",
+  "version": "1.0.0",
+  "description": "Scan a codebase for Stripe webhook handlers that trust events without signature verification. Zero dependencies.",
+  "license": "MIT",
+  "author": "Cenk Kurtoglu <cnkkurtoglu@gmail.com>",
+  "repository": { "type": "git", "url": "git+https://github.com/cekuu35/stripe-webhook-audit.git" },
+  "homepage": "https://github.com/cekuu35/stripe-webhook-audit#readme",
+  "bugs": "https://github.com/cekuu35/stripe-webhook-audit/issues",
+  "bin": { "stripe-webhook-audit": "bin/swhook.js" },
+  "files": ["bin", "examples", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test" },
+  "keywords": ["stripe", "webhooks", "security", "audit", "signature-verification", "linter", "payments"]
+}
